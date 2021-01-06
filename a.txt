@@ -2,11 +2,13 @@
  using namespace std;
  int main()
  {
- 	int Sothunhat, Sothuhai, tong;
+ 	int Sothunhat, Sothuhai, tong, hieu;
         
         cout << "Vui long nhap so thu nhat,sau do nhap tiep so thu 2 o hang duoi: ";
         cin >> Sothunhat >> Sothuhai;
         tong = SoThuNhat + Sothuhai;
-        cout << Sothunhat << " + " <<  Sothuhai << " = " << Tonghaiso;     
+	tong = SoThuNhat - Sothuhai;
+        cout << Sothunhat << " + " <<  Sothuhai << " = " << tong;
+	cout << Sothunhat << " - " <<  Sothuhai << " = " << hieu;     
         return 0;
  }
