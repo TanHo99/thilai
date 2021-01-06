@@ -7,8 +7,10 @@
         cout << "Vui long nhap so thu nhat,sau do nhap tiep so thu 2 o hang duoi: ";
         cin >> Sothunhat >> Sothuhai;
         tong = SoThuNhat + Sothuhai;
-	tong = SoThuNhat - Sothuhai;
+	hieu = SoThuNhat - Sothuhai;
+	tich = SoThuNhat * Sothuhai;
         cout << Sothunhat << " + " <<  Sothuhai << " = " << tong;
 	cout << Sothunhat << " - " <<  Sothuhai << " = " << hieu;     
+	cout << Sothunhat << " * " <<  Sothuhai << " = " << tich;
         return 0;
  }
