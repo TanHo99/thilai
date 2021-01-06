@@ -9,8 +9,10 @@
         tong = SoThuNhat + Sothuhai;
 	hieu = SoThuNhat - Sothuhai;
 	tich = SoThuNhat * Sothuhai;
+	thuong = SoThuNhat / Sothuhai;
         cout << Sothunhat << " + " <<  Sothuhai << " = " << tong;
 	cout << Sothunhat << " - " <<  Sothuhai << " = " << hieu;     
 	cout << Sothunhat << " * " <<  Sothuhai << " = " << tich;
+	cout << Sothunhat << " / " <<  Sothuhai << " = " << thuong;
         return 0;
  }
